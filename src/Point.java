@@ -1,16 +1,13 @@
 import java.awt.*;
 
-/**
- * Created by vroyibg on 8/2/16.
- */
 public class Point {
-    public int x;
+    private int x;
 
     public int getX() {
         return x;
     }
 
-    public int y;
+    private int y;
 
     public int getY() {
         return y;
@@ -28,9 +25,8 @@ public class Point {
         this.y=y;
     }
     public void drawPiece(Graphics graphics,int size){
-        if(piece==null) return;
-        else{
-            piece.draw(graphics,x,y,size);
+        if(piece!=null) {
+            piece.draw(graphics, x, y, size);
         }
     }
 

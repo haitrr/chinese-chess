@@ -1,13 +1,10 @@
 import java.awt.*;
 
-/**
- * Created by vroyibg on 8/2/16.
- */
 public class Piece {
     protected String name;
     protected boolean red;
     protected Image image;
-    public Piece(boolean red){
+    protected Piece(boolean red){
         this.red=red;
     }
     public void draw(Graphics graphics,int x,int y,int size){

@@ -1,9 +1,7 @@
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.io.*;
-/**
- * Created by vroyibg on 8/3/16.
- */
+
 public class Constants{
     public static final File boardFile=new File("Resource/board.png");
     public static final File blackAdvisorFile=new File("Resource/advisor_black.png");

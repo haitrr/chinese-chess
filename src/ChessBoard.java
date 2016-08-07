@@ -1,6 +1,3 @@
-/**
- * Created by vroyibg on 8/3/16.
- */
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseEvent;

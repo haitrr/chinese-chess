@@ -1,9 +1,6 @@
 import javax.swing.*;
 import java.io.IOException;
 
-/**
- * Created by vroyibg on 8/2/16.
- */
 public class Game {
     public static void main(String[] args){
         try{
@@ -14,5 +11,6 @@ public class Game {
             return;
         }
         GameForm gameForm=new GameForm();
+        gameForm.setVisible(true);
     }
 }
